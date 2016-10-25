@@ -21,12 +21,9 @@ client.connect((err) => {
     }
     console.log('SEARCHING..')
     if(true){
-    console.log(`Found ${result.rows.length} person(s) by the name 'Lincoln':`)
+    console.log(`Found ${result.rows.length} person(s) by the name ${person}:`)
     output(result)
     client.end();
-    }
-    else{
-      console.log('nobody by that name')
     }
   });
 });

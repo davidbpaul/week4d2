@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pg": "git+https://github.com/brianc/node-postgres.git"
+    "knex": "^0.12.6",
+    "pg": "git+https://github.com/brianc/node-postgres.git",
+    "pg-then": "^1.2.1"
   }
 }
